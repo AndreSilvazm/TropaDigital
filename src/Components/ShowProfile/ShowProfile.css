@@ -1,0 +1,167 @@
+.OffHeader {
+
+    width: 100%;
+    height: 30px;
+    background-color: #F0F0F0;
+}
+
+.ShowProfileBTN{
+
+    width: 23px;
+    height: 21px;
+    border: none;
+}
+
+.ShowProfileBTN img{
+
+    width: 23px;
+    height: 21px;
+
+}
+
+.CloseProfileBTN {
+
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+
+}
+
+.CloseProfileBTN img {
+
+    width: 23.19px;
+    height: 21.41px;
+}
+
+.CanvaContainer {
+
+    background-color: #F0F0F0;
+    overflow-y: auto;
+    
+}
+
+.ProfileInfos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Poppins;
+
+}
+
+.LogadoProfileInfos, .DeslogadoProfileInfos{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Poppins;
+
+}
+
+.LogadoProfileInfos img{
+
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    border: 12px solid #FFFFFF;
+    position: relative;
+    top: 30%;
+
+}
+
+.DeslogadoProfileInfos img{
+    
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    border: 12px solid #FFFFFF;
+    position: relative;
+    top: 30%;
+
+}
+
+
+
+.MenuSection {
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.MenuBar a {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.MenuBar a:hover{
+
+    background-color: #cc62389a;
+    color: white;
+}
+
+.MenuBar a span{
+
+    margin-right: .3em;
+}
+
+.MenuBar {
+
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.MenuBar hr{
+    text-align: center;
+    width: 262.5px;
+    border: 1px solid #D1D1D1
+
+}
+
+
+.DashboardSelected {
+
+    box-sizing: border-box;
+    background-color: #CC6138;
+    color: white;
+    font-family: DM Sans;
+    padding: 1em;
+
+}
+
+.NotSelectedItem{
+
+    color: black;
+    padding: 1em;
+
+    font-family: DM Sans;
+}
+
+
+.GetoutIcon{
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+    align-self: flex-end;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+

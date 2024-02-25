@@ -1,0 +1,388 @@
+.LoginContainer {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+}
+
+.LoginImg{
+
+    width: 50%;
+    height: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/1eb1/c611/c535728613daf51bc332b3b0477bb387?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=inyJSAStmZ9gubhPBXcbJOSJgOpNYdqGQQfYr5brG~mz6A9iaaWEiWsu8njXzkznBi1RcLjYbYMJM9h-r8xYSitJfJH2b7mZiL3Xla04YVnus3YYOV8HtEGefRe24IRXp0wUIGFswwdnH00A-8ECkGOhvupIILm4dsLYYtUO1Rc8~6IVJUwaed9qzwqzoq1HwnaqBf0plzcwPNxIcQIDfQuvOSuxkFVjHNKVPFBn6aMZITFMCJRrrCtXgHJFCUTARLqE~bEUvDIWSnjr~hde5K-sxz5csNFa75wH5m8sKWemk8qjzM7r45VIqOo8hpC4BFO4YG8qzHG1CWV7tFlgyQ__');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.TextContainer {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204, 97, 56, 0.8);
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2em;
+
+}
+
+.TextContainer h1 {
+
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.TextContainer p {
+
+    width: 100%;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.LoginFormSection {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+
+}
+
+.FormContainer{
+
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.LoginPageTitle{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Poppins;
+    color: #CC6138;
+    letter-spacing: 0.04em;
+
+}
+.CadastrarPageTitle{
+
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Poppins;
+    color: #CC6138;
+    letter-spacing: 0.04em;
+}
+
+.CadastrarPageHeader{
+    width: 100%;
+    color: black;
+    margin-top: 2em;
+
+}
+
+.CadastrarPageHeader a{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    text-align: start;
+    color: black;
+    font-family: Poppins;
+    font-size: 17.68px;
+    cursor: pointer;
+}
+
+.CredentialsLogin,.CredentialsCadastro {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.EmailContainer{
+
+    position: relative;
+}
+
+.EmailLabel, .SenhaLabel{
+
+    display: block;
+    text-align: left;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #CC6138;
+
+}
+
+.EmailInputLogin, .SenhaInputLogin{
+    width: 100%;
+    height: 40px;
+    margin: 1.5em 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #CC6138;
+    font-family: poppins;
+    
+    
+}
+
+.EmailInputLogin:focus, .SenhaInputLogin:focus {
+    border-bottom: 1px solid #cc623873;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+}
+
+.SenhaContainer{
+
+    position: relative;
+}
+
+.NomeContainer{
+
+    position: relative;
+}
+
+.MailIcon, .EyeIcon, .DoneIcon{
+
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.DoneIcon{
+
+    color: #00A02D;
+}
+
+.NomeCadastroLabel, .EmailCadastroLabel, .SenhaCadastroLabel, .SenhaconCadastroLabel {
+    display: block;
+    text-align: left;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #CC6138;
+
+}
+
+.NomeCadastroInput, .EmailCadastroInput, .SenhaCadastroInput, .SenhaconCadastroInput{
+    position: static;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #CC6138;
+    margin-bottom: 1em;
+    font-family: Poppins;
+    color: #333333;
+    font-size: 18px;
+}
+
+.NomeCadastroInput:focus,.EmailCadastroInput:focus,.SenhaCadastroInput:focus,.SenhaconCadastroInput:focus{
+
+    border-bottom: 1px solid #cc623873;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+}
+
+.WrongPassContainer p{
+
+    color: #B90000;
+    font-size: 12px;
+    text-align: left;
+}
+
+.WrongPassLabel{
+    display: block;
+    text-align: left;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #CC6138;
+
+}
+
+
+
+.WrongPassInput{
+
+    position: static;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #B90000;
+    color: #B90000;
+}
+
+
+
+.WrongPassInput:focus{
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+}
+.wrongpssIcon{
+
+    bottom: 40%;
+}
+
+.WrongConfPassLabel{
+
+    display: block;
+    text-align: left;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #CC6138;
+
+
+}
+
+.WrongConfPassInput{
+
+    position: static;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #B90000;
+    color: #B90000;
+
+}
+
+.WrongConfPassContainer p{
+    color: #B90000;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.wrongConfpssIcon{
+
+    bottom: 40%;
+}
+
+.WrongConfPassInput:focus{
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+
+}
+
+
+.ReminderRadio{
+
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ReminderRadio label{
+
+    margin-left: 10px;
+    color: #CC6138;
+}
+
+.ReminderRadio input{
+
+    width: 20px;
+    height: 20px;
+}
+
+.AgreementsSection{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .5em;
+    margin-top: 10px;
+    
+}
+
+.AgreementsContainer label{
+
+    margin-left: 10px;
+}
+
+.AgreementsContainer label a{
+
+    color: #CC6138;
+}
+
+.Reminder label{
+
+    color: #CC6138;
+    margin-left: 10px;
+}
+
+.SiginBtnContainer {
+
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.SiginBtnContainer button{
+    width: 194px;
+    height: 61.57px;
+    background-color: #CC6138;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5%;    
+}
+
+.SiginBtnContainer a{
+
+
+    text-decoration: none;
+    color: #CC6138;
+    font-size: 18px;
+}
+
+.CadastrarLink{
+    font-family: Poppins;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.CadastreseL{
+    color: #CC6138;
+    cursor: pointer;
+}
+

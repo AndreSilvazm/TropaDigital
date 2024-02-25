@@ -1,0 +1,94 @@
+.modal-body {
+
+    text-align: center;
+}
+
+.modal-body h1 {
+
+    color: #CC6138;
+    font-family: Poppins;
+    font-size: 44.35px;
+    font-weight: 700;
+
+}
+
+.modal-body p {
+
+    width: 80%;
+    margin: 10px auto;
+    font-family: Poppins;
+}
+
+.ModalForms{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 71px;
+    margin: auto;
+}
+
+.EmailLabel{
+    font-family: Poppins;
+
+    color: #CC6138;
+    align-self: flex-start;
+}
+
+
+.EmailInput{
+    height: 40px;
+    margin: 1.5em 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #CC6138
+
+}
+
+.EmailInput:focus{
+
+    border-bottom: 1px solid #cc623873;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+
+}
+
+.ModalButtons{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ModalButtons a{
+
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    font-family: Poppins;
+
+
+}
+
+.EnviarBTN{
+
+    width: 50%;
+    height: 40px;
+    color: white;
+    background-color: #CC6138;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.CancelBTN{
+
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    size: 18px;
+}

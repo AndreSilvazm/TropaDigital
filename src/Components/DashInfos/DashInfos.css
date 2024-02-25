@@ -1,0 +1,170 @@
+.All-Container {
+
+    width: 100%;
+    height: calc(100vh - 30px);
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DashContainer {
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+
+
+
+.GraphsSection {
+
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+
+
+}
+
+
+.GraphsSection h1{
+
+    font-weight: 700;
+}
+
+
+
+
+.grap1 {
+    width: 32%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.graphinfos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid 1px #ECECEC;
+}
+
+.graphinfos i{
+    color: #828282;
+    font-size: 2em ;
+}
+
+
+.textInfos{
+
+    width: 50%;
+    
+
+}
+
+.textInfos p {
+    font-family: Roboto;
+    color: #828282;
+    margin: 0;
+}
+
+.textInfos span {
+
+    font-family: Roboto;
+    font-size: 27px;
+    text-align: left;
+    color: #CC6138;
+
+}
+
+.containerGra {
+
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+
+
+.grap2 {
+    width: 32%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+.Graph2Title{
+
+    font-size: 22.44px;
+    color:#828282 ;
+    font-family: Roboto;
+}
+
+.grap3 {
+    width: 32%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.Graph3Title{
+
+    font-size: 22.44px;
+    color:#828282 ;
+    font-family: Roboto;
+    
+
+}
+
+.firstGraphs {
+    height: 49%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+
+
+.secGraph {
+
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.secInfo{
+    width: 100%;
+    height: 30%;
+    border-bottom: solid 1px #ECECEC;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.secInfo h1{
+
+    font-size: 22.44px;
+    color:#828282 ;
+    font-family: Roboto;
+}
+.SecGra{
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}

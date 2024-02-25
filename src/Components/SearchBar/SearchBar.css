@@ -1,0 +1,42 @@
+.SearchSection {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1em;
+}
+
+
+
+.search-container {
+
+    width: 30%;
+    position: relative;
+    display: inline-block;
+
+}
+
+.PesquisarInput{
+    padding-left: 30px; /* Espaço para o ícone */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 46px;
+    width: 90%;
+    outline: none;
+    border-radius: 23px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #666;
+    cursor: pointer;
+}
+
+.bell-Icon{
+
+    font-size: 2em;
+}
